@@ -7,6 +7,6 @@ window.history.pushState(null, null);
 window.addEventListener('popstate', 
 						function(e) {
 							if ((e.state) && (e.state.action=="fake")) 
-								window.location.assign("/google?p="+utm_term+"&f=new");
+								window.location.assign("/fonari?p="+utm_term+"&f=new");
 							});
 });
